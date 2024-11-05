@@ -1,9 +1,8 @@
 package net.jsona.entity.client
 
 import net.jsona.entity.custom.RatEntity
-import net.jsona.entity.custom.DirtmobEntity
-import net.jsona.testmod.entity.client.RatModel
-import net.jsona.testmod.entity.client.DirtmobModel
+import net.jsona.ytwpn.entity.client.RatModel
+import net.jsona.ytwpn.Ytwpn
 import net.minecraft.client.render.VertexConsumerProvider
 import net.minecraft.client.render.entity.EntityRendererFactory
 import net.minecraft.client.render.entity.MobEntityRenderer
@@ -17,7 +16,7 @@ class RatRenderer(context: EntityRendererFactory.Context) : MobEntityRenderer<Ra
     0.6f
 ) {
     companion object {
-        private val TEXTURE = Identifier.of("testmod", "textures/entity/rat.png") // I checked this path.
+        private val TEXTURE = Identifier.of(Ytwpn.MOD_ID, "textures/entity/rat.png") // I checked this path.
     }
 
     override fun getTexture(entity: RatEntity): Identifier {

@@ -4,7 +4,7 @@ import net.jsona.block.custom.BreakableBrickBlock
 import net.jsona.block.custom.KillerBlock
 import net.jsona.block.custom.PlatformBlock
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
-import net.jsona.testmod.Testmod
+import net.jsona.ytwpn.Ytwpn
 import net.minecraft.block.AbstractBlock
 import net.minecraft.block.Block
 import net.minecraft.block.Blocks
@@ -33,15 +33,15 @@ object ModBlocks {
 
     fun registerBlock(name:String, block:Block): Block {
         registerBlockItem(name, block)
-        return Registry.register(Registries.BLOCK, Identifier.of(Testmod.MOD_ID, name), block)
+        return Registry.register(Registries.BLOCK, Identifier.of(Ytwpn.MOD_ID, name), block)
     }
 
     fun registerBlockItem(name:String, block: Block){
-        Registry.register(Registries.ITEM, Identifier.of(Testmod.MOD_ID, name), BlockItem(block, Item.Settings()))
+        Registry.register(Registries.ITEM, Identifier.of(Ytwpn.MOD_ID, name), BlockItem(block, Item.Settings()))
     }
 
     fun registerModBlocks(){
-        Testmod.logger.info("Registering blocks for "+ Testmod.MOD_ID)
+        Ytwpn.logger.info("Registering blocks for "+ Ytwpn.MOD_ID)
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register{ entries ->
             entries.add(PINK_GARNET_BLOCK)
             entries.add(PIPE_DEATH_BLOCK)

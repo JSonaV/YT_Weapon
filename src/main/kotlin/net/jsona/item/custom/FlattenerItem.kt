@@ -1,35 +1,16 @@
 package net.jsona.item.custom
 
-import net.jsona.entity.ModEntities
 import net.jsona.entity.ModEntities.BLOCK_DESTROYING_PROJECTILE_ENTITY
-import net.jsona.entity.custom.BrewermobEntity
-import net.jsona.item.ModItems
-import net.jsona.testmod.Testmod
-import net.minecraft.advancement.criterion.Criteria
-import net.minecraft.entity.EntityType
 import net.minecraft.entity.player.PlayerEntity
-import net.minecraft.fluid.Fluids
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
-import net.minecraft.item.ItemUsageContext
-import net.minecraft.item.Items
-import net.minecraft.particle.ParticleTypes
-import net.minecraft.server.network.ServerPlayerEntity
-import net.minecraft.server.world.ServerWorld
 import net.minecraft.sound.SoundCategory
 import net.minecraft.sound.SoundEvents
-import net.minecraft.stat.Stats
-import net.minecraft.text.Text
-import net.minecraft.util.ActionResult
 import net.minecraft.util.Hand
 import net.minecraft.util.TypedActionResult
-import net.minecraft.util.hit.HitResult
-import net.minecraft.util.math.BlockPos
 import net.minecraft.util.math.Vec3d
-import net.minecraft.world.RaycastContext
 import net.minecraft.world.World
 import java.lang.Math.*
-import kotlin.random.Random
 
 
 class FlattenerItem(settings: Settings?) : Item(settings) {

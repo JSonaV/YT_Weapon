@@ -1,35 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "testmod",
+	"id": "ytwpn",
 	"version": "${version}",
 	"name": "testmod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"JSona"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/JSonaV/YT_Weapon"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/testmod/icon.png",
+	"icon": "assets/ytwpn/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "net.jsona.testmod.Testmod",
+				"value": "net.jsona.ytwpn.Ytwpn",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
 			{
-				"value": "net.jsona.testmod.TestmodClient",
+				"value": "net.jsona.ytwpn.YtwpnClient",
 				"adapter": "kotlin"
 			}
 		],
 		"fabric-datagen": [
 			{
-				"value": "net.jsona.testmod.TestmodDataGenerator",
+				"value": "net.jsona.ytwpn.YtwpnDataGenerator",
 				"adapter": "kotlin"
 			}
 		]
