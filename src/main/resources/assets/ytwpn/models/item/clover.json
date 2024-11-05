@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ytwpn:item/clover"
+  },
+  "display": {
+    "head": {
+      "rotation": [
+        0,
+        29,
+        20
+      ],
+      "translation": [
+        -6.5,
+        6.5,
+        -7.3
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

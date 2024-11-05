@@ -11,7 +11,8 @@ import net.minecraft.util.Identifier
 
 object ModItems {
     var FLATTENER = registerItem("flattener", FlattenerItem(Item.Settings()))
-    var RATINATOR = registerItem("ratinator", Ratinator(Item.Settings()))
+    var RATINATOR = registerItem("ratinator", RatinatorItem(Item.Settings()))
+    var CLOVER = registerItem("clover", CloverItem(Item.Settings()))
 
 
     fun registerItem(name:String,item:Item): Item? {
@@ -24,5 +25,7 @@ object ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register { entries ->
             entries.add(FLATTENER)
             entries.add(RATINATOR)
-}   }
+            entries.add(CLOVER)
+        }
+    }
 }
