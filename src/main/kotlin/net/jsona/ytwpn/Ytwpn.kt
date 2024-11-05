@@ -28,7 +28,7 @@ object Ytwpn : ModInitializer {
 			if (world is ServerWorld) {
 				for (player in world.players) {
 					if (player.getEquippedStack(EquipmentSlot.HEAD).item == ModItems.CLOVER) {
-						val luckEffect = StatusEffectInstance(StatusEffects.LUCK, 40, 10)
+						val luckEffect = StatusEffectInstance(StatusEffects.LUCK, 40, 3)
 						player.addStatusEffect(luckEffect, null)
 					}
 				}
