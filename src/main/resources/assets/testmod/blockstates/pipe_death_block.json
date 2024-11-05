@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testmod:block/pipe_death_block"
+    }
+  }
+}

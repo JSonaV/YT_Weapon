@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.jsona.testmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FishingRodItemMixin",
+		"MixinFireBlock"
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

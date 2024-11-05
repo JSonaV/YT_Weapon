@@ -1,0 +1,17 @@
+{
+  "block.testmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.testmod.platform_block": "Brick platform",
+  "block.testmod.breakable_brick_block": "Breakable Brick",
+  "block.testmod.teleport_pipe_block": "Teleport Pipe",
+
+  "item.testmod.metal_detector": "Metal Detector",
+  "item.testmod.pink_garnet": "Pink Garnet",
+  "item.testmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.testmod.double_bucket": "Double Bucket",
+  "item.testmod.double_water_bucket": "Double Water Bucket",
+  "item.testmod.magmamob_spawner": "Magma Defense Spawner",
+  "item.testmod.dirtmob_spawner": "Dirt Defense Spawner",
+  "item.testmod.brewermob_spawner": "Brewer Defense Spawner",
+  "item.testmod.begin_raid": "Begin Raid",
+  "item.testmod.flattener": "The Flattener"
+}
