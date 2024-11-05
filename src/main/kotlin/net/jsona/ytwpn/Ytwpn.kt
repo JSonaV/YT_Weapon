@@ -14,8 +14,7 @@ import net.minecraft.server.world.ServerWorld
 import org.slf4j.LoggerFactory
 
 object Ytwpn : ModInitializer {
-	var waveNumber = 1
-	var waveOngoing = false
+
 
 	val MOD_ID = "ytwpn"
 	val logger = LoggerFactory.getLogger(MOD_ID)
