@@ -31,10 +31,6 @@ class FlattenerItem(settings: Settings?) : Item(settings) {
         world.playSound(user, user.blockPos, SoundEvents.ITEM_MACE_SMASH_GROUND, SoundCategory.PLAYERS, 2.0f, 0.6f)
 
 
-
-
-
-
         return TypedActionResult.success(itemStack)
 
     }
