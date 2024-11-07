@@ -10,10 +10,11 @@ import net.minecraft.registry.Registry
 import net.minecraft.util.Identifier
 
 object ModItems {
-    var FLATTENER = registerItem("flattener", FlattenerItem(Item.Settings()))
-    var RATINATOR = registerItem("ratinator", RatinatorItem(Item.Settings()))
-    var CLOVER = registerItem("clover", CloverItem(Item.Settings()))
-    var THE_ANVIL = registerItem("the_anvil", TheAnvilItem(Item.Settings()))
+    val FLATTENER = registerItem("flattener", FlattenerItem(Item.Settings()))
+    val RATINATOR = registerItem("ratinator", RatinatorItem(Item.Settings()))
+    val CLOVER = registerItem("clover", CloverItem(Item.Settings()))
+    val THE_ANVIL = registerItem("the_anvil", TheAnvilItem(Item.Settings()))
+    val STEAKCOCHICARROCHOPIE = registerItem("steakcochicarrochopie", Item(Item.Settings().food(ModFoodComponents.STEAKCOCHICARROCHOPIE)))
 
 
     fun registerItem(name:String,item:Item): Item? {
@@ -28,6 +29,7 @@ object ModItems {
             entries.add(RATINATOR)
             entries.add(CLOVER)
             entries.add(THE_ANVIL)
+            entries.add(STEAKCOCHICARROCHOPIE)
         }
     }
 }
