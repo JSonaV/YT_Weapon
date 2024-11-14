@@ -3,9 +3,11 @@ package net.jsona.ytwpn
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry
+import net.jsona.block.ModBlocks
 import net.jsona.entity.ModEntities
 import net.jsona.entity.client.*
 import net.jsona.ytwpn.entity.client.RatModel
+import net.minecraft.data.client.BlockStateModelGenerator
 
 class YtwpnClient : ClientModInitializer {
     override fun onInitializeClient() {

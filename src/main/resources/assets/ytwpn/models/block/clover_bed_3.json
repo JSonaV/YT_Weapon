@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flowerbed_3",
+  "textures": {
+    "flowerbed": "ytwpn:block/clover_bed",
+    "stem": "minecraft:block/pink_petals_stem"
+  }
+}

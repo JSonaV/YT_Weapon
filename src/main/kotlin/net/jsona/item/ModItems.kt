@@ -14,7 +14,7 @@ object ModItems {
     val RATINATOR = registerItem("ratinator", RatinatorItem(Item.Settings()))
     val CLOVER = registerItem("clover", CloverItem(Item.Settings()))
     val THE_ANVIL = registerItem("the_anvil", TheAnvilItem(Item.Settings()))
-    val STEAKCOCHICARROCHOPIE = registerItem("steakcochicarrochopie", Item(Item.Settings().food(ModFoodComponents.STEAKCOCHICARROCHOPIE)))
+    val STEAKCOCHICARROCHOPIE = registerItem("steakcochicarrochopie", SteacoItem(Item.Settings().food(ModFoodComponents.STEAKCOCHICARROCHOPIE)))
 
 
     fun registerItem(name:String,item:Item): Item? {
