@@ -21,7 +21,7 @@ object ModEntities {
                 .dimensions(1f, 1f) // Adjust dimensions as necessary
                 .build("block_destroying_projectile")
         )
-
+    //test
     val RAT: EntityType<RatEntity> = Registry.register(
         Registries.ENTITY_TYPE,
         Identifier.of(MOD_ID, "rat"),
